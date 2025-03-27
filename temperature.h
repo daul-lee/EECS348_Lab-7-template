@@ -33,6 +33,14 @@ float celsius_to_kelvin(float celsius);
  * @param celsius
  * @return float
  */
-float kelvin_to_celsius(float celsius);
+float kelvin_to_celsius(float kelvin);
 
+
+/**
+ * @brief prints out statement about the weather
+ * 
+ * @param celsius
+ * @return float
+ */
+void weather_report(float kelvin);
 #endif /* __REPORT_H__ */
